@@ -1,0 +1,30 @@
+{
+  "name": "kirana-club-retail-pulse",
+  "version": "1.0.0",
+  "description": "kirana Club Retail Pulse",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon index.js",
+    "worker": "node src/services/worker.js"
+  },
+  "keywords": [
+    "Kirana Club Retail Pulse"
+  ],
+  "author": "Alok Gupta",
+  "license": "ISC",
+  "packageManager": "pnpm@10.5.0",
+  "dependencies": {
+    "axios": "^1.8.2",
+    "bullmq": "^5.41.8",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "ioredis": "^5.6.0",
+    "mongoose": "^8.12.1",
+    "mysql2": "^3.13.0",
+    "redis": "^4.7.0",
+    "winston": "^3.17.0"
+  }
+}
